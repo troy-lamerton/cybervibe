@@ -2,5 +2,15 @@
   "name": "twitter-city-data",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node --presets=env"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "concurrently": "^3.5.0",
+    "nodemon": "^1.11.0",
+    "rimraf": "^2.6.1"
+  }
 }
