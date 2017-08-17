@@ -31,3 +31,4 @@ readme.html
 .env
 .ENV
 /build
+output/

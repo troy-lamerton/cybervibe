@@ -1,6 +1,6 @@
 export const location = {
-  city: 'berlin',
-  country: 'germany',
+  city: 'Berlin',
+  country: 'Germany',
 }
 
 import dotenv from 'dotenv'
